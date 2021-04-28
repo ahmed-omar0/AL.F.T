@@ -3,6 +3,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing:border-box;
     box-sizing: border-box;
+    transition: .5s;
 }
 /* End Global Rules*/
 /* Start navbar */
@@ -140,6 +141,29 @@ form h2 span{
 @media(max-width:1199.98px){
     .header form input{
         max-width:100%
+    }
+}
+@media(max-width:551px){
+    .text p:nth-of-type(2){
+        width: 280px;
+        margin: 20px auto;
+    }
+    .header{
+        height: 800px;
+        text-align: center;
+    }
+    .header form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header form h2{
+        width: 100%;
+    }
+    .seperator2{
+        margin: auto;
+        width: 50%;
     }
 }
 /* End header */
