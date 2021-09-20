@@ -11,35 +11,35 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
     <!--Start navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="nav">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top mb-5" id="navbar">
         <div class="container">
-        <a class="navbar-brand" href="#">AL.<span>F.T</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ANit-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <a class="navbar-brand" href="#">AL.<span>F.T</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="ANit-nav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse justify-content-lg-end" id="nav">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item mr-2 active">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item mr-2">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mr-2">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item mr-2">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item mr-2">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
       </nav>
     <!--End navbar-->
     <!--Start Header-->
@@ -90,8 +90,8 @@
               Aeneaneuismod bibendum laoreet.
             </p>
           </div>
-          <div class="icons col-md-8 col-sm-12">
-            <ul>
+          <div class="icons col-md-8 col-12">
+            <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center pl-0">
               <li><i class="fab fa-facebook-f"></i></li>
               <li><i class="fab fa-twitter"></i></li>
               <li><i class="fab fa-google-plus-g"></i></li>
@@ -105,18 +105,18 @@
     </section>
     <!--End social media-->
     <!--Start features-->
-    <section class="Features mt-0">
+    <section class="Features mt-0" id="features">
       <div class="feature1 px-5 py-5">
         <div class="container">
           <div class="row">
             <div class="tabs col-md-2 col h-100">
-              <ul class="list-group h-100">
+              <ul class="list-group h-100 list-group h-100 d-flex flex-wrap flex-sm-column flex-row justify-content-around mb-sm-0 mb-5">
                 <li class="list-group-item active" id="tab1">tab1</li>
                 <li class="list-group-item" id="tab2">tab2</li>
                 <li class="list-group-item" id="tab3">tab3</li>
               </ul>
             </div>
-            <div class="text3 col-md-5  col mx-2">
+            <div class="text3 col-md-5 col-12 mx-2">
               <div id="tab1-text">
               <h2>Tabs with soft transitioning effect.(1)</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
@@ -151,8 +151,8 @@
                     <button>Download</button>
                   </div>
             </div>
-            <div class="img1 col-md-3 col">
-              <img src="images/image_right1.png" alt="..."/>
+            <div class="img1 col-md-3 col  mt-sm-0 mt-5">
+              <img src="images/image_right1.png" alt="..." class="img-fluid"/>
             </div>
           </div>
         </div>
@@ -160,12 +160,12 @@
       <div class="feature2 px-1 py-1">
         <div class="container">
           <div class="row">
-            <div class="img2 col-md-6  col mr-5">
-              <img src="images/image_left1.png" alt="..."/>
+            <div class="img2 col-md-6 col-12">
+              <img src="images/image_left1.png" alt="..." class="img-fluid"/>
             </div>
-            <div class="text4 col-md-4 col mt-4">
-              <h3>Sub list section</h3>
-              <div class="seperator3"></div>
+            <div class="text4 col-md-4 col-12 mt-md-4">
+              <h3 class="text-md-left text-center">Sub list section</h3>
+              <div class="seperator3 mx-md-0 mx-auto"></div>
               <p class="w-100">orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod bibendum laoreet. Proin gravida dolor sit amet lacus
                 accumsan et viverra justo commodo.</p>
@@ -190,17 +190,20 @@
       <div class="feature3">
         <div class="container py-3 px-3">
           <div class="row">
-            <div class="text5 col-6 col mt-5">
+            <div class="img3 col-12 d-md-none">
+              <img src="images/image_right2.png" alt="..." class="img-fluid"/>
+            </div>
+            <div class="text5 col-md-6 col-12 text-md-left text-center mt-md-3">
               <h3>Standard Picture Section</h3>
-              <div class="seperator4"></div>
+              <div class="seperator4 mx-md-0 mx-auto"></div>
               <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod bibendum laoreet. Proin gravida dolor sit amet lacus
                 accumsan et viverra justo commodo.</p>
               <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod bibendum laoreet.</p>
             </div>
-            <div class="img3 col-6 col">
-              <img src="images/image_right2.png" alt="..." class="mw-100"/>
+            <div class="img3 col-md-6 col-12 d-md-block d-none">
+              <img src="images/image_right2.png" alt="..." class="img-fluid"/>
             </div>
           </div>
         </div>
@@ -208,7 +211,7 @@
     </section>
     <!--End features-->
     <!--Start why this is awesome-->
-    <section class="awesome">
+    <section class="awesome" id="about">
       <div class="container">
         <h2 class="h1">Why this is Awesome</h2>
         <div class="seperator5"></div>
@@ -240,14 +243,14 @@
     </section>
     <!--End why this is awesome-->
     <!--Start Pricing Options-->
-    <section class="pricing px-3 py-5">
+    <section class="pricing px-3 py-5" id="pricing">
       <div class="container text-center">
         <h2 class="h1">PRICING OPTIONS</h2>
         <div class="seperator6"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing
           elit.</p>
         <div class="row">
-          <div class="option1 col-md-4 d-inline-block mt-5">
+          <div class="option1 col-md-4 mt-5">
             <ul class="list-group">
               <li class="list-group-item"><h2>Basic</h2></li>
               <li class="list-group-item"><span class="dolar">$</span>0<br><span class="note">Free For Life</span></li>
@@ -259,7 +262,7 @@
               <li class="list-group-item">EMAIL SUPPORT</li>
             </ul>
           </div>
-        <div class="option2 col-md-4 d-inline-block mt-3">
+        <div class="option2 col-md-4 mt-3">
           <ul class="list-group">
             <li class="list-group-item"><h2>Professional</h2></li>
             <li class="list-group-item"><span class="dolar">$</span>19<br><span class="note">Monthly Payment</span></li>
@@ -272,7 +275,7 @@
             <li class="list-group-item">EMAIL SUPPORT</li>
           </ul>
         </div>
-          <div class="option3 col-md-4 d-inline-block mt-5">
+          <div class="option3 col-md-4 mt-5">
             <ul class="list-group">
               <li class="list-group-item"><h2>Enterprise</h2></li>
               <li class="list-group-item"><span class="dolar">$</span>70<br><span class="note">Monthly Payment</span></li>
@@ -289,33 +292,39 @@
     </section>
     <!--End Pricing Options-->
     <!--Start what our customers are saying-->
-    <section class="customer-saying">
+    <section class="customer-saying" id="reviews">
       <div class="container">
-        <h2 class="h1 text-center">WHAT OUR CUSTOMERS ARE SAYING</h2>
+        <h2 class="h1 h1 text-sm-center text-left">WHAT OUR CUSTOMERS ARE SAYING</h2>
         <div class="seperator7 text-center"></div>
-        <p class="text-center">lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="text-center">
+          lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
         <div class="row">
           <div class="person1 col-md-4 mt-3">
-            <p class="  text-center">lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet.</p>
-              <div class="media">
-                <img src="images/avatar.png" class="mr-3" alt="...">
-                <div class="media-body">
-                  <h5 class="mt-0">Jermy H.</h5>
-                  <span>Manager</span>
-                </div>
+            <p class="text-center">
+              lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet.
+            </p>
+            <div class="media">
+              <img src="images/avatar.png" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0">Jermy H.</h5>
+                <span>Manager</span>
               </div>
+            </div>
           </div>
           <div class="person2 col-md-4 mt-3">
-            <p class="  text-center">lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet.</p>
-              <div class="media">
-                <img src="images/avatar.png" class="mr-3" alt="...">
-                <div class="media-body">
-                  <h5 class="mt-0">John S.</h5>
-                  <span>Freelancer</span>
-                </div>
+            <p class="text-center">
+              lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet.
+            </p>
+            <div class="media">
+              <img src="images/avatar.png" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0">John S.</h5>
+                <span>Freelancer</span>
               </div>
+            </div>
           </div>
           <div class="person3 col-md-4 mt-3">
             <p class="  text-center">lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
@@ -345,33 +354,35 @@
     </section>
     <!--End stylish-->
     <!--Start Contanct US-->
-    <section class="contact-us mt-2 px-2 py-2">
-      <h2 class="h1 text-center">CONTACT US</h2>
-      <div class="seperator9 text-center"></div>
-      <P class="text-center">lorem ipsum dolor sit amet, consectetur adipiscing elit.</P>
+    <section class="contact-us mt-2 px-2 py-2" id="contact">
       <div class="container">
-        <div class="row">
-          <form class="col-md-6">
-            <div class="form-group">
-              <label class="sr-only" for="message-name">NAME</label>
-              <input type="email" id="message-name" placeholder="Name"/>
-            </div>
-            <div class="form-group">
-              <label for="messsage-Email" class="sr-only">Email</label>
-              <input type="email" id="messsage-Email" placeholder="Email"/>
+        <div class="row justify-content-center">
+          <h2 class="h1 text-center col-12">CONTACT US</h2>
+          <div class="seperator9 text-center"></div>
+          <P class="text-center col-12">lorem ipsum dolor sit amet, consectetur adipiscing elit.</P>  
+          <form action="" class="col-md-12">
+            <div class="float-left col-sm-6 col-12">
+              <div class="form-group">
+                <label class="sr-only" for="message-name">NAME</label>
+                <input type="email" id="message-name" placeholder="Name" class="mt-3 border-bottom border-top-0 border-right-0 border-left-0 p-2 w-100"/>
               </div>
               <div class="form-group">
-              <label for="Subject" class="sr-only">Password</label>
-              <input type="text" id="Subject" placeholder="Subject"/>
+                <label for="messsage-Email" class="sr-only">Email</label>
+                <input type="email" id="messsage-Email" placeholder="Email" class="mt-3 border-bottom border-top-0 border-right-0 border-left-0 p-2 w-100"/>
               </div>
-            </form>
-            <form class="col-md-6 mt-3">
+              <div class="form-group">
+                <label for="Subject" class="sr-only">Password</label>
+                <input type="text" id="Subject" placeholder="Subject" class="mt-3 border-bottom border-top-0 border-right-0 border-left-0 p-2 w-100"/>
+              </div>
+            </div>
+            <div class="float-right col-sm-6 col-12">
               <div class="form-group">
                 <label for="Message" class="sr-only">Password</label>
-                <input type="text" id="Message" placeholder="Message"/>
+                <input type="text" id="Message" placeholder="Message" class="mt-3 border-bottom border-top-0 border-right-0 border-left-0 p-2 pb-sm-5 w-100"/>
               </div>
-            </form>
-              <button>Send Message</button>
+            </div>
+            <button type="submit" class="btn col-12 mt-4">Send Message</button>
+          </form>
         </div>
       </div>
     </section>
@@ -392,7 +403,7 @@
       <h6 class="mb-0 pb-0">&copy;AL.<span>F.T</span></h6>
     </section>
     <!--End Footer-->
-    <div class="Up" id="up"><i class="fas fa-arrow-up"></i></div>
+    <div class="rounded-circle text-center d-none" id="up"><i class="fas fa-arrow-up"></i></div>
     <!--Start JS-->
     <script src="https://kit.fontawesome.com/73d0725f91.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
