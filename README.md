@@ -21,7 +21,7 @@ or
 2) Open index.html file
 3) Have fun!
 
-# Demo
+# Live Demo
 [Demo](https://ahmedomaral-farouq.github.io/AL.F.T/)
 
 # Prerequisites
