@@ -22,27 +22,27 @@ tab1.addEventListener('click', () => {
     tab1.classList.add("active");
     tab2.classList.remove("active");
     tab3.classList.remove("active");
-    tab1Text.classList.remove("hidden-text");
-    tab2Text.classList.add("hidden-text");
-    tab3Text.classList.add("hidden-text");
+    tab1Text.classList.remove("d-none");
+    tab2Text.classList.add("d-none");
+    tab3Text.classList.add("d-none");
 });
 
 tab2.addEventListener('click', () => {
     tab2.classList.add("active");
     tab1.classList.remove("active");
     tab3.classList.remove("active");
-    tab1Text.classList.add("hidden-text");
-    tab3Text.classList.add("hidden-text");
-    tab2Text.classList.remove("hidden-text");
+    tab1Text.classList.add("d-none");
+    tab3Text.classList.add("d-none");
+    tab2Text.classList.remove("d-none");
 });
 
 tab3.addEventListener('click', () => {
     tab3.classList.add("active");
     tab2.classList.remove("active");
     tab1.classList.remove("active");
-    tab3Text.classList.remove("hidden-text");
-    tab2Text.classList.add("hidden-text");
-    tab1Text.classList.add("hidden-text");
+    tab3Text.classList.remove("d-none");
+    tab2Text.classList.add("d-none");
+    tab1Text.classList.add("d-none");
 });
 
 /*Start Scroll Up*/
