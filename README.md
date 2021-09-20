@@ -34,7 +34,7 @@ You need some coding knowldge to understand this code.
 
 # Authors
 :bearded_person: **Ahmed Omar**
-  - Github: [@Ahmed-Alfarouq](https://github.com/Ahmed-Alfaouq)
+  - Github: [@Ahmed-Alfarouq](https://github.com/AhmedOmarAL-farouq)
   - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-omar912ba9199/)
   - Twitter: [@twitter](https://twitter.com/mediocre23534)
 
